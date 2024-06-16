@@ -6,7 +6,7 @@ bindings = <&kp NUMBER_6>, <&kp NUMBER_7>, <&kp NUMBER_8>, <&kp NUMBER_9>, <&kp 
 };
 macro_mcfoo: macro_mcfoo2{
 compatible = "zmk,behavior-macro";
-label = "macro_mcfoo";
+label = "macro_mcfoo2";
 #binding-cells = <0>;
 bindings = <&kp NUMBER_1>, <&kp Q>, <&kp A>, <&kp Z>, <&kp NUMBER_2>, <&kp W>, <&kp S>, <&kp X>, <&kp EXCLAMATION>, <&kp LS(Q)>, <&kp LS(A)>, <&kp LS(Z)>, <&kp AT>, <&kp LS(W)>, <&kp LS(S)>, <&kp LS(X)>, <&kp RETURN>;
 };
