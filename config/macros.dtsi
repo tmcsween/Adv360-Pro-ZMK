@@ -4,7 +4,7 @@ label = "macro_mcfoo";
 #binding-cells = <0>;
 bindings = <&kp NUMBER_6>, <&kp NUMBER_7>, <&kp NUMBER_8>, <&kp NUMBER_9>, <&kp Y>, <&kp U>, <&kp I>, <&kp O>, <&kp CARET>, <&kp AMPERSAND>, <&kp ASTERISK>, <&kp LEFT_PARENTHESIS>, <&kp LS(Y)>, <&kp LS(U)>, <&kp LS(I)>, <&kp LS(O)>, <&kp RETURN>;
 };
-macro_mcfoo: macro_mcfoo2{
+macro_mcfoo2: macro_mcfoo2{
 compatible = "zmk,behavior-macro";
 label = "macro_mcfoo2";
 #binding-cells = <0>;
