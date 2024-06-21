@@ -1,3 +1,9 @@
+macro_macro_mcfoo3: macro_macro_mcfoo3{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_mcfoo3";
+#binding-cells = <0>;
+bindings = <&kp NUMBER_2>, <&kp W>, <&kp S>, <&kp X>, <&kp NUMBER_1>, <&kp E>, <&kp D>, <&kp C>, <&kp EXCLAMATION>, <&kp LS(W)>, <&kp LS(S)>, <&kp LS(X)>, <&kp AT>, <&kp LS(E)>, <&kp LS(D)>, <&kp LS(C)>, <&kp RET>;
+};
 macro_mcfoo: macro_mcfoo{
 compatible = "zmk,behavior-macro";
 label = "macro_mcfoo";
